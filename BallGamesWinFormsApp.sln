@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallGamesWinFormsApp", "BallGamesWinFormsApp\BallGamesWinFormsApp.csproj", "{C6805B16-0828-4456-84D4-7F0C7C4976E8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47ACDFD1-A35E-4A5D-A6A7-A38B987AC923} = {47ACDFD1-A35E-4A5D-A6A7-A38B987AC923}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameCatchBallsWinFormsApp", "GameCatchBallsWinFormsApp\GameCatchBallsWinFormsApp.csproj", "{E5CFAA90-2C30-4B01-AD8B-F761C4E2B782}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47ACDFD1-A35E-4A5D-A6A7-A38B987AC923} = {47ACDFD1-A35E-4A5D-A6A7-A38B987AC923}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BallsGame.Common", "BallsGame.Common\BallsGame.Common.csproj", "{47ACDFD1-A35E-4A5D-A6A7-A38B987AC923}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BilliardBallsWinFormsApp", "BilliardBallsWinFormsApp\BilliardBallsWinFormsApp.csproj", "{933F622E-4B89-472A-A6D4-14AC16E91688}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiffusionWinFormsApp", "DiffusionWinFormsApp\DiffusionWinFormsApp.csproj", "{05527702-772A-4D55-A28D-80CCCEDB3CAC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47ACDFD1-A35E-4A5D-A6A7-A38B987AC923} = {47ACDFD1-A35E-4A5D-A6A7-A38B987AC923}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FireworkWinFormsApp", "FireworkWinFormsApp\FireworkWinFormsApp.csproj", "{87F0C891-E24D-41D6-9FF4-07E6C1749D7E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47ACDFD1-A35E-4A5D-A6A7-A38B987AC923} = {47ACDFD1-A35E-4A5D-A6A7-A38B987AC923}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FruitNinjaWinFormsApp", "FruitNinjaWinFormsApp\FruitNinjaWinFormsApp.csproj", "{310F2231-E5B8-49BC-B82C-45DC442D6C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngryBirdsWinFormsApp", "AngryBirdsWinFormsApp\AngryBirdsWinFormsApp.csproj", "{52725367-EBFB-492D-81D0-4A7EA01E6A26}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47ACDFD1-A35E-4A5D-A6A7-A38B987AC923} = {47ACDFD1-A35E-4A5D-A6A7-A38B987AC923}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6805B16-0828-4456-84D4-7F0C7C4976E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6805B16-0828-4456-84D4-7F0C7C4976E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6805B16-0828-4456-84D4-7F0C7C4976E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6805B16-0828-4456-84D4-7F0C7C4976E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5CFAA90-2C30-4B01-AD8B-F761C4E2B782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5CFAA90-2C30-4B01-AD8B-F761C4E2B782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5CFAA90-2C30-4B01-AD8B-F761C4E2B782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5CFAA90-2C30-4B01-AD8B-F761C4E2B782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47ACDFD1-A35E-4A5D-A6A7-A38B987AC923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47ACDFD1-A35E-4A5D-A6A7-A38B987AC923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47ACDFD1-A35E-4A5D-A6A7-A38B987AC923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47ACDFD1-A35E-4A5D-A6A7-A38B987AC923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933F622E-4B89-472A-A6D4-14AC16E91688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933F622E-4B89-472A-A6D4-14AC16E91688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933F622E-4B89-472A-A6D4-14AC16E91688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933F622E-4B89-472A-A6D4-14AC16E91688}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05527702-772A-4D55-A28D-80CCCEDB3CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05527702-772A-4D55-A28D-80CCCEDB3CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05527702-772A-4D55-A28D-80CCCEDB3CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05527702-772A-4D55-A28D-80CCCEDB3CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87F0C891-E24D-41D6-9FF4-07E6C1749D7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87F0C891-E24D-41D6-9FF4-07E6C1749D7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87F0C891-E24D-41D6-9FF4-07E6C1749D7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87F0C891-E24D-41D6-9FF4-07E6C1749D7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310F2231-E5B8-49BC-B82C-45DC442D6C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310F2231-E5B8-49BC-B82C-45DC442D6C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310F2231-E5B8-49BC-B82C-45DC442D6C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310F2231-E5B8-49BC-B82C-45DC442D6C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52725367-EBFB-492D-81D0-4A7EA01E6A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52725367-EBFB-492D-81D0-4A7EA01E6A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52725367-EBFB-492D-81D0-4A7EA01E6A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52725367-EBFB-492D-81D0-4A7EA01E6A26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDCFFAA9-CDBB-48CC-A3C0-5FC75B4801FF}
+	EndGlobalSection
+EndGlobal
